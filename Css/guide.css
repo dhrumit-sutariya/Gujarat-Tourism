@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-color: #d1d3d8;    
+}
+.video{
+    width: 100%;
+    margin: 30px 20px 0px 20px;
+}
+iframe{
+    margin: 32px;
+}

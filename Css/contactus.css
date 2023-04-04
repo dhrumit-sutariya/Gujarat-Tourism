@@ -1,0 +1,98 @@
+main {
+  width: 100%;
+  height: 100vh;
+  /* background-color: #d1d3d8;     */
+  background: linear-gradient(to right, #f1eeee 0%, rgb(151, 136, 136) 100%);
+  ;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 30rem;
+  padding: 10px;
+  margin-top: 80px;
+  background: #d1d3d8;
+  box-shadow: 0 8px 32px 0 rgba(130, 131, 139, 0.37);
+  backdrop-filter: blur(17.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+
+}
+
+input {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 5px;
+  background-color: #e3f4c3b9;
+  font-size: 20px;
+}
+
+#btn {
+  padding: 10px 20px;
+  margin: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+  font-size: 19px;
+  font-weight: 800;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background: linear-gradient(127deg, #ccc9d2 0%, #f895eb 50%);
+  transition: 0.5s;
+  color: white;
+  border: 1px solid rgb(255, 255, 255);
+  box-sizing: 5px 5px 5px rgb(0, 0, 0);
+}
+
+#btn:hover {
+  color: black;
+  font-size: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  background-position: right center;
+}
+
+#btn:active {
+  background-color: #ffffff;
+  color: black;
+  box-shadow: 3px 3px #e3f4c367;
+  transform: translateY(2px);
+}
+
+#contact {
+  padding-top: 20px;
+}
+
+.icon {
+  margin: 10px;
+}
+
+.mail {
+  margin-top: 10px;
+}
+
+.logos {
+  margin-top: 10px;
+}
+
+.contact {
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+}
+
+.copyright {
+  display: block;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  padding: 20px;
+
+}

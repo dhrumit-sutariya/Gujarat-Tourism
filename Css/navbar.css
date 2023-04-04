@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+  }
+  
+  .navbar {
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    color: #e7e7e7;
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    align-items:center;
+  }
+  
+  .navbar .brand {
+    display: block;
+    color: #e7e7e7;
+    padding: 0 24px;
+    font-size: 30px;
+  }
+  
+  .navbar ul li a {
+    color: #e7e7e7;
+    padding: 24px;
+    display: block;
+  }
+  
+  .navbar ul a:hover,
+  .navbar ul a:focus,
+  .navbar ul .active {
+    background-color: #272727;
+  }
